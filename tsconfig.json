@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "importHelpers": true
+  },
+  "exclude": [
+    "**/__test__/*",
+    "**/__tests__/*",
+    "**/*.stories.tsx",
+    "**/*.stories.ts",
+    "src/widgets/*"
+  ],
+  "include": ["src"]
+}
