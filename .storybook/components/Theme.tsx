@@ -1,5 +1,4 @@
 import { Source } from '@storybook/addon-docs'
-import { Description } from '@storybook/blocks'
 import React, { ReactElement } from 'react'
 import { defaultTheme } from '../../src/framework/theme/theme'
 
@@ -22,9 +21,6 @@ export function Theme({
 
   return (
     <>
-      <Description
-        markdown={`This component uses the following theme defaults:`}
-      />
       <Source code={JSON.stringify(theme, null, 2)} language="json" />
     </>
   )

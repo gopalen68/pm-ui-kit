@@ -7,7 +7,7 @@ export function useTheme(): Theme {
   const theme = useContext(ThemeContext)
 
   if (theme === null || theme === undefined) {
-    throw new Error('No theme is available on context.')
+    throw new Error('PM-ERROR: No theme is available on context.')
   }
 
   return theme

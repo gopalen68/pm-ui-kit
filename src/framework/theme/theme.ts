@@ -1,3 +1,7 @@
 export type Theme = typeof defaultTheme
 
-export const defaultTheme = {}
+import button from '../../components/Button/theme'
+
+export const defaultTheme = {
+  button,
+}

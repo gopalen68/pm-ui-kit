@@ -19,7 +19,7 @@ export type ReactUIProviderProps = {
   children?: ReactNode
 }
 
-export function ReactUIProviderProps({
+export function ReactUIProvider({
   theme,
   linkComponent,
   router,
